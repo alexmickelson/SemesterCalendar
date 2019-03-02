@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemesterCalendar.Droid", "SemesterCalendar.Droid\SemesterCalendar.Droid.csproj", "{CAAB92DE-BE06-4957-8E0C-D4934268181C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemesterCalendar.Core", "SemesterCalendar.Core\SemesterCalendar.Core.csproj", "{2BF11190-9203-4632-8AD7-C30C35EA6460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{CAAB92DE-BE06-4957-8E0C-D4934268181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAAB92DE-BE06-4957-8E0C-D4934268181C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAAB92DE-BE06-4957-8E0C-D4934268181C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2BF11190-9203-4632-8AD7-C30C35EA6460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF11190-9203-4632-8AD7-C30C35EA6460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF11190-9203-4632-8AD7-C30C35EA6460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF11190-9203-4632-8AD7-C30C35EA6460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -36,8 +36,8 @@
         android:text="Credits"
         />
     </LinearLayout>
-    <mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
-     local:MvxItemTemplate="@layout/_ClassItem.axml"
+    <Mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
+     local:MvxItemTemplate="@layout/_classitem"
      local:MvxBind=""
      android:layout_width="match_parent"
      android:layout_height="match_parent"

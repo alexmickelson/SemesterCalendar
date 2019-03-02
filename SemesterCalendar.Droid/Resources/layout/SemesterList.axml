@@ -4,20 +4,21 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-	<AppBarLayout
-		android:id="@id/Menu"
+
+	<!--<AppBarLayout
+		android:id="@+id/Menu"
 		android:orientation="vertical"
 		android:layout_width="match_parent"
 		android:layout_height="50dp" >
 		<Toolbar
-		android:id="@id/toolbar1"
+		android:id="@+id/toolbar1"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:text="Edit" />
-		<android.support.design.widget.TabLayout
-		
-			>
-	</AppBarLayout>
+		<android.support.design.widget.TabLayout/>
+
+	</AppBarLayout>-->
+
 	<LinearLayout
 		android:orientation="vertical"
 		android:layout_width="match_parent"

@@ -26,6 +26,174 @@ namespace SemesterCalendar.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::MvvmCross.Resource.Attribute.MvxBind = global::SemesterCalendar.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxLang = global::SemesterCalendar.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Resource.Attribute.MvxTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Resource.Id.MvvmCrossTagId = global::SemesterCalendar.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Resource.Id.MvxBindingTagUnique = global::SemesterCalendar.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Resource.Styleable.MvxBinding = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxBind = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxLang = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Resource.Styleable.MvxControl = global::SemesterCalendar.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Resource.Styleable.MvxControl_MvxTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView = global::SemesterCalendar.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxBind = global::SemesterCalendar.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxDropDownItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxItemTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxLang = global::SemesterCalendar.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplate = global::SemesterCalendar.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::SemesterCalendar.Droid.Resource.Attribute.MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollEnabled = global::SemesterCalendar.Droid.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::SemesterCalendar.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::SemesterCalendar.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::SemesterCalendar.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::SemesterCalendar.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.font = global::SemesterCalendar.Droid.Resource.Attribute.font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderAuthority = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderCerts = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchStrategy = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchTimeout = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderPackage = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderQuery = global::SemesterCalendar.Droid.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontStyle = global::SemesterCalendar.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontWeight = global::SemesterCalendar.Droid.Resource.Attribute.fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layoutManager = global::SemesterCalendar.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.reverseLayout = global::SemesterCalendar.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.spanCount = global::SemesterCalendar.Droid.Resource.Attribute.spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.stackFromEnd = global::SemesterCalendar.Droid.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Boolean.abc_action_bar_embed_tabs = global::SemesterCalendar.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_action_color_filter = global::SemesterCalendar.Droid.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_icon_bg_color = global::SemesterCalendar.Droid.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.ripple_material_light = global::SemesterCalendar.Droid.Resource.Color.ripple_material_light;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.secondary_text_default_material_light = global::SemesterCalendar.Droid.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_horizontal_material = global::SemesterCalendar.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_vertical_material = global::SemesterCalendar.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_horizontal_material = global::SemesterCalendar.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_vertical_material = global::SemesterCalendar.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_control_corner_material = global::SemesterCalendar.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_default_thickness = global::SemesterCalendar.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_margin = global::SemesterCalendar.Droid.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_minimum_range = global::SemesterCalendar.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SemesterCalendar.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SemesterCalendar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SemesterCalendar.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_icon_size = global::SemesterCalendar.Droid.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_text_size = global::SemesterCalendar.Droid.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_big_circle_margin = global::SemesterCalendar.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_content_margin_start = global::SemesterCalendar.Droid.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_height = global::SemesterCalendar.Droid.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_width = global::SemesterCalendar.Droid.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_main_column_padding_top = global::SemesterCalendar.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_media_narrow_margin = global::SemesterCalendar.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_icon_size = global::SemesterCalendar.Droid.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_side_padding_top = global::SemesterCalendar.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_background_padding = global::SemesterCalendar.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_size_as_large = global::SemesterCalendar.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_subtext_size = global::SemesterCalendar.Droid.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad = global::SemesterCalendar.Droid.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad_large_text = global::SemesterCalendar.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_action_background = global::SemesterCalendar.Droid.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_normal = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_pressed = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal_pressed = global::SemesterCalendar.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_icon_background = global::SemesterCalendar.Droid.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_bg = global::SemesterCalendar.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_low_bg = global::SemesterCalendar.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_tile_bg = global::SemesterCalendar.Droid.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notify_panel_notification_icon_bg = global::SemesterCalendar.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvvmCrossTagId = global::SemesterCalendar.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvxBindingTagUnique = global::SemesterCalendar.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_container = global::SemesterCalendar.Droid.Resource.Id.action_container;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_divider = global::SemesterCalendar.Droid.Resource.Id.action_divider;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_image = global::SemesterCalendar.Droid.Resource.Id.action_image;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_text = global::SemesterCalendar.Droid.Resource.Id.action_text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.actions = global::SemesterCalendar.Droid.Resource.Id.actions;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.async = global::SemesterCalendar.Droid.Resource.Id.async;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.blocking = global::SemesterCalendar.Droid.Resource.Id.blocking;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.chronometer = global::SemesterCalendar.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.forever = global::SemesterCalendar.Droid.Resource.Id.forever;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon = global::SemesterCalendar.Droid.Resource.Id.icon;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon_group = global::SemesterCalendar.Droid.Resource.Id.icon_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.info = global::SemesterCalendar.Droid.Resource.Id.info;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.italic = global::SemesterCalendar.Droid.Resource.Id.italic;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::SemesterCalendar.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line1 = global::SemesterCalendar.Droid.Resource.Id.line1;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line3 = global::SemesterCalendar.Droid.Resource.Id.line3;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.normal = global::SemesterCalendar.Droid.Resource.Id.normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_background = global::SemesterCalendar.Droid.Resource.Id.notification_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column = global::SemesterCalendar.Droid.Resource.Id.notification_main_column;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column_container = global::SemesterCalendar.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_icon = global::SemesterCalendar.Droid.Resource.Id.right_icon;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_side = global::SemesterCalendar.Droid.Resource.Id.right_side;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_transition_group = global::SemesterCalendar.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text = global::SemesterCalendar.Droid.Resource.Id.text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text2 = global::SemesterCalendar.Droid.Resource.Id.text2;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.time = global::SemesterCalendar.Droid.Resource.Id.time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.title = global::SemesterCalendar.Droid.Resource.Id.title;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Integer.status_bar_notification_info_maxnum = global::SemesterCalendar.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action = global::SemesterCalendar.Droid.Resource.Layout.notification_action;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action_tombstone = global::SemesterCalendar.Droid.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_custom_big = global::SemesterCalendar.Droid.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_icon_group = global::SemesterCalendar.Droid.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_chronometer = global::SemesterCalendar.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_time = global::SemesterCalendar.Droid.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.String.status_bar_notification_info_overflow = global::SemesterCalendar.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification = global::SemesterCalendar.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Info = global::SemesterCalendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SemesterCalendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Time = global::SemesterCalendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Title = global::SemesterCalendar.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionContainer = global::SemesterCalendar.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionText = global::SemesterCalendar.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderAuthority = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderCerts = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderPackage = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderQuery = global::SemesterCalendar.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_font = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_font = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontStyle = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontWeight = global::SemesterCalendar.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::SemesterCalendar.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl = global::SemesterCalendar.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl_MvxTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView = global::SemesterCalendar.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxItemTemplate = global::SemesterCalendar.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView = global::SemesterCalendar.Droid.Resource.Styleable.MvxRecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector = global::SemesterCalendar.Droid.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_orientation = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_layoutManager = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_stackFromEnd = global::SemesterCalendar.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
 		}
 		
 		public partial class Animation
@@ -107,6 +275,27 @@ namespace SemesterCalendar.Droid
 		
 		public partial class Attribute
 		{
+			
+			// aapt resource value: 0x7f01015b
+			public const int MvxBind = 2130772315;
+			
+			// aapt resource value: 0x7f01015f
+			public const int MvxDropDownItemTemplate = 2130772319;
+			
+			// aapt resource value: 0x7f010160
+			public const int MvxGroupItemTemplate = 2130772320;
+			
+			// aapt resource value: 0x7f01015e
+			public const int MvxItemTemplate = 2130772318;
+			
+			// aapt resource value: 0x7f01015c
+			public const int MvxLang = 2130772316;
+			
+			// aapt resource value: 0x7f01015d
+			public const int MvxTemplate = 2130772317;
+			
+			// aapt resource value: 0x7f01015a
+			public const int MvxTemplateSelector = 2130772314;
 			
 			// aapt resource value: 0x7f010052
 			public const int actionBarDivider = 2130772050;
@@ -2324,59 +2513,68 @@ namespace SemesterCalendar.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080032
-			public const int ALT = 2131230770;
-			
-			// aapt resource value: 0x7f080033
-			public const int CTRL = 2131230771;
-			
 			// aapt resource value: 0x7f080034
-			public const int FUNCTION = 2131230772;
+			public const int ALT = 2131230772;
 			
 			// aapt resource value: 0x7f080035
-			public const int META = 2131230773;
+			public const int CTRL = 2131230773;
 			
 			// aapt resource value: 0x7f080036
-			public const int SHIFT = 2131230774;
+			public const int FUNCTION = 2131230774;
 			
 			// aapt resource value: 0x7f080037
-			public const int SYM = 2131230775;
+			public const int META = 2131230775;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action0 = 2131230876;
+			// aapt resource value: 0x7f0800ae
+			public const int Menu = 2131230894;
 			
-			// aapt resource value: 0x7f08007c
-			public const int action_bar = 2131230844;
+			// aapt resource value: 0x7f08001d
+			public const int MvvmCrossTagId = 2131230749;
+			
+			// aapt resource value: 0x7f08001e
+			public const int MvxBindingTagUnique = 2131230750;
+			
+			// aapt resource value: 0x7f080038
+			public const int SHIFT = 2131230776;
+			
+			// aapt resource value: 0x7f080039
+			public const int SYM = 2131230777;
+			
+			// aapt resource value: 0x7f08009e
+			public const int action0 = 2131230878;
+			
+			// aapt resource value: 0x7f08007e
+			public const int action_bar = 2131230846;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_activity_content = 2131230721;
 			
-			// aapt resource value: 0x7f08007b
-			public const int action_bar_container = 2131230843;
+			// aapt resource value: 0x7f08007d
+			public const int action_bar_container = 2131230845;
 			
-			// aapt resource value: 0x7f080077
-			public const int action_bar_root = 2131230839;
+			// aapt resource value: 0x7f080079
+			public const int action_bar_root = 2131230841;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_bar_spinner = 2131230722;
 			
-			// aapt resource value: 0x7f08005b
-			public const int action_bar_subtitle = 2131230811;
+			// aapt resource value: 0x7f08005d
+			public const int action_bar_subtitle = 2131230813;
 			
-			// aapt resource value: 0x7f08005a
-			public const int action_bar_title = 2131230810;
+			// aapt resource value: 0x7f08005c
+			public const int action_bar_title = 2131230812;
 			
-			// aapt resource value: 0x7f080099
-			public const int action_container = 2131230873;
+			// aapt resource value: 0x7f08009b
+			public const int action_container = 2131230875;
 			
-			// aapt resource value: 0x7f08007d
-			public const int action_context_bar = 2131230845;
+			// aapt resource value: 0x7f08007f
+			public const int action_context_bar = 2131230847;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action_divider = 2131230880;
+			// aapt resource value: 0x7f0800a2
+			public const int action_divider = 2131230882;
 			
-			// aapt resource value: 0x7f08009a
-			public const int action_image = 2131230874;
+			// aapt resource value: 0x7f08009c
+			public const int action_image = 2131230876;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2384,158 +2582,158 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080004
 			public const int action_menu_presenter = 2131230724;
 			
-			// aapt resource value: 0x7f080079
-			public const int action_mode_bar = 2131230841;
-			
-			// aapt resource value: 0x7f080078
-			public const int action_mode_bar_stub = 2131230840;
-			
-			// aapt resource value: 0x7f08005c
-			public const int action_mode_close_button = 2131230812;
-			
-			// aapt resource value: 0x7f08009b
-			public const int action_text = 2131230875;
-			
-			// aapt resource value: 0x7f0800a9
-			public const int actions = 2131230889;
-			
-			// aapt resource value: 0x7f08005d
-			public const int activity_chooser_view_content = 2131230813;
-			
-			// aapt resource value: 0x7f080027
-			public const int add = 2131230759;
-			
-			// aapt resource value: 0x7f080070
-			public const int alertTitle = 2131230832;
-			
-			// aapt resource value: 0x7f080052
-			public const int all = 2131230802;
-			
-			// aapt resource value: 0x7f080038
-			public const int always = 2131230776;
-			
-			// aapt resource value: 0x7f080056
-			public const int async = 2131230806;
-			
-			// aapt resource value: 0x7f080044
-			public const int auto = 2131230788;
-			
-			// aapt resource value: 0x7f08002f
-			public const int beginning = 2131230767;
-			
-			// aapt resource value: 0x7f080057
-			public const int blocking = 2131230807;
-			
-			// aapt resource value: 0x7f08003d
-			public const int bottom = 2131230781;
-			
-			// aapt resource value: 0x7f080063
-			public const int buttonPanel = 2131230819;
-			
-			// aapt resource value: 0x7f08009d
-			public const int cancel_action = 2131230877;
-			
-			// aapt resource value: 0x7f080045
-			public const int center = 2131230789;
-			
-			// aapt resource value: 0x7f080046
-			public const int center_horizontal = 2131230790;
-			
-			// aapt resource value: 0x7f080047
-			public const int center_vertical = 2131230791;
-			
-			// aapt resource value: 0x7f080073
-			public const int checkbox = 2131230835;
-			
-			// aapt resource value: 0x7f0800a5
-			public const int chronometer = 2131230885;
-			
-			// aapt resource value: 0x7f08004e
-			public const int clip_horizontal = 2131230798;
-			
-			// aapt resource value: 0x7f08004f
-			public const int clip_vertical = 2131230799;
-			
-			// aapt resource value: 0x7f080039
-			public const int collapseActionView = 2131230777;
-			
-			// aapt resource value: 0x7f08008d
-			public const int container = 2131230861;
-			
-			// aapt resource value: 0x7f080066
-			public const int contentPanel = 2131230822;
-			
-			// aapt resource value: 0x7f08008e
-			public const int coordinator = 2131230862;
-			
-			// aapt resource value: 0x7f08006d
-			public const int custom = 2131230829;
-			
-			// aapt resource value: 0x7f08006c
-			public const int customPanel = 2131230828;
+			// aapt resource value: 0x7f08007b
+			public const int action_mode_bar = 2131230843;
 			
 			// aapt resource value: 0x7f08007a
-			public const int decor_content_parent = 2131230842;
-			
-			// aapt resource value: 0x7f080060
-			public const int default_activity_button = 2131230816;
-			
-			// aapt resource value: 0x7f080090
-			public const int design_bottom_sheet = 2131230864;
-			
-			// aapt resource value: 0x7f080097
-			public const int design_menu_item_action_area = 2131230871;
-			
-			// aapt resource value: 0x7f080096
-			public const int design_menu_item_action_area_stub = 2131230870;
-			
-			// aapt resource value: 0x7f080095
-			public const int design_menu_item_text = 2131230869;
-			
-			// aapt resource value: 0x7f080094
-			public const int design_navigation_view = 2131230868;
-			
-			// aapt resource value: 0x7f080020
-			public const int disableHome = 2131230752;
-			
-			// aapt resource value: 0x7f08007e
-			public const int edit_query = 2131230846;
-			
-			// aapt resource value: 0x7f080030
-			public const int end = 2131230768;
-			
-			// aapt resource value: 0x7f0800ab
-			public const int end_padder = 2131230891;
-			
-			// aapt resource value: 0x7f08003f
-			public const int enterAlways = 2131230783;
-			
-			// aapt resource value: 0x7f080040
-			public const int enterAlwaysCollapsed = 2131230784;
-			
-			// aapt resource value: 0x7f080041
-			public const int exitUntilCollapsed = 2131230785;
+			public const int action_mode_bar_stub = 2131230842;
 			
 			// aapt resource value: 0x7f08005e
-			public const int expand_activities_button = 2131230814;
+			public const int action_mode_close_button = 2131230814;
+			
+			// aapt resource value: 0x7f08009d
+			public const int action_text = 2131230877;
+			
+			// aapt resource value: 0x7f0800ab
+			public const int actions = 2131230891;
+			
+			// aapt resource value: 0x7f08005f
+			public const int activity_chooser_view_content = 2131230815;
+			
+			// aapt resource value: 0x7f080029
+			public const int add = 2131230761;
 			
 			// aapt resource value: 0x7f080072
-			public const int expanded_menu = 2131230834;
-			
-			// aapt resource value: 0x7f080050
-			public const int fill = 2131230800;
-			
-			// aapt resource value: 0x7f080051
-			public const int fill_horizontal = 2131230801;
-			
-			// aapt resource value: 0x7f080048
-			public const int fill_vertical = 2131230792;
+			public const int alertTitle = 2131230834;
 			
 			// aapt resource value: 0x7f080054
-			public const int @fixed = 2131230804;
+			public const int all = 2131230804;
+			
+			// aapt resource value: 0x7f08003a
+			public const int always = 2131230778;
 			
 			// aapt resource value: 0x7f080058
-			public const int forever = 2131230808;
+			public const int async = 2131230808;
+			
+			// aapt resource value: 0x7f080046
+			public const int auto = 2131230790;
+			
+			// aapt resource value: 0x7f080031
+			public const int beginning = 2131230769;
+			
+			// aapt resource value: 0x7f080059
+			public const int blocking = 2131230809;
+			
+			// aapt resource value: 0x7f08003f
+			public const int bottom = 2131230783;
+			
+			// aapt resource value: 0x7f080065
+			public const int buttonPanel = 2131230821;
+			
+			// aapt resource value: 0x7f08009f
+			public const int cancel_action = 2131230879;
+			
+			// aapt resource value: 0x7f080047
+			public const int center = 2131230791;
+			
+			// aapt resource value: 0x7f080048
+			public const int center_horizontal = 2131230792;
+			
+			// aapt resource value: 0x7f080049
+			public const int center_vertical = 2131230793;
+			
+			// aapt resource value: 0x7f080075
+			public const int checkbox = 2131230837;
+			
+			// aapt resource value: 0x7f0800a7
+			public const int chronometer = 2131230887;
+			
+			// aapt resource value: 0x7f080050
+			public const int clip_horizontal = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int clip_vertical = 2131230801;
+			
+			// aapt resource value: 0x7f08003b
+			public const int collapseActionView = 2131230779;
+			
+			// aapt resource value: 0x7f08008f
+			public const int container = 2131230863;
+			
+			// aapt resource value: 0x7f080068
+			public const int contentPanel = 2131230824;
+			
+			// aapt resource value: 0x7f080090
+			public const int coordinator = 2131230864;
+			
+			// aapt resource value: 0x7f08006f
+			public const int custom = 2131230831;
+			
+			// aapt resource value: 0x7f08006e
+			public const int customPanel = 2131230830;
+			
+			// aapt resource value: 0x7f08007c
+			public const int decor_content_parent = 2131230844;
+			
+			// aapt resource value: 0x7f080062
+			public const int default_activity_button = 2131230818;
+			
+			// aapt resource value: 0x7f080092
+			public const int design_bottom_sheet = 2131230866;
+			
+			// aapt resource value: 0x7f080099
+			public const int design_menu_item_action_area = 2131230873;
+			
+			// aapt resource value: 0x7f080098
+			public const int design_menu_item_action_area_stub = 2131230872;
+			
+			// aapt resource value: 0x7f080097
+			public const int design_menu_item_text = 2131230871;
+			
+			// aapt resource value: 0x7f080096
+			public const int design_navigation_view = 2131230870;
+			
+			// aapt resource value: 0x7f080022
+			public const int disableHome = 2131230754;
+			
+			// aapt resource value: 0x7f080080
+			public const int edit_query = 2131230848;
+			
+			// aapt resource value: 0x7f080032
+			public const int end = 2131230770;
+			
+			// aapt resource value: 0x7f0800ad
+			public const int end_padder = 2131230893;
+			
+			// aapt resource value: 0x7f080041
+			public const int enterAlways = 2131230785;
+			
+			// aapt resource value: 0x7f080042
+			public const int enterAlwaysCollapsed = 2131230786;
+			
+			// aapt resource value: 0x7f080043
+			public const int exitUntilCollapsed = 2131230787;
+			
+			// aapt resource value: 0x7f080060
+			public const int expand_activities_button = 2131230816;
+			
+			// aapt resource value: 0x7f080074
+			public const int expanded_menu = 2131230836;
+			
+			// aapt resource value: 0x7f080052
+			public const int fill = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int fill_horizontal = 2131230803;
+			
+			// aapt resource value: 0x7f08004a
+			public const int fill_vertical = 2131230794;
+			
+			// aapt resource value: 0x7f080056
+			public const int @fixed = 2131230806;
+			
+			// aapt resource value: 0x7f08005a
+			public const int forever = 2131230810;
 			
 			// aapt resource value: 0x7f08000a
 			public const int ghost_view = 2131230730;
@@ -2543,35 +2741,35 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080005
 			public const int home = 2131230725;
 			
-			// aapt resource value: 0x7f080021
-			public const int homeAsUp = 2131230753;
+			// aapt resource value: 0x7f080023
+			public const int homeAsUp = 2131230755;
 			
-			// aapt resource value: 0x7f080062
-			public const int icon = 2131230818;
+			// aapt resource value: 0x7f080064
+			public const int icon = 2131230820;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int icon_group = 2131230890;
+			// aapt resource value: 0x7f0800ac
+			public const int icon_group = 2131230892;
 			
-			// aapt resource value: 0x7f08003a
-			public const int ifRoom = 2131230778;
+			// aapt resource value: 0x7f08003c
+			public const int ifRoom = 2131230780;
 			
-			// aapt resource value: 0x7f08005f
-			public const int image = 2131230815;
+			// aapt resource value: 0x7f080061
+			public const int image = 2131230817;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int info = 2131230886;
+			// aapt resource value: 0x7f0800a8
+			public const int info = 2131230888;
 			
-			// aapt resource value: 0x7f080059
-			public const int italic = 2131230809;
+			// aapt resource value: 0x7f08005b
+			public const int italic = 2131230811;
 			
 			// aapt resource value: 0x7f080000
 			public const int item_touch_helper_previous_elevation = 2131230720;
 			
-			// aapt resource value: 0x7f08008c
-			public const int largeLabel = 2131230860;
+			// aapt resource value: 0x7f08008e
+			public const int largeLabel = 2131230862;
 			
-			// aapt resource value: 0x7f080049
-			public const int left = 2131230793;
+			// aapt resource value: 0x7f08004b
+			public const int left = 2131230795;
 			
 			// aapt resource value: 0x7f080017
 			public const int line1 = 2131230743;
@@ -2579,62 +2777,68 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080018
 			public const int line3 = 2131230744;
 			
-			// aapt resource value: 0x7f08001d
-			public const int listMode = 2131230749;
+			// aapt resource value: 0x7f08001f
+			public const int listMode = 2131230751;
 			
-			// aapt resource value: 0x7f080061
-			public const int list_item = 2131230817;
+			// aapt resource value: 0x7f080063
+			public const int list_item = 2131230819;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int masked = 2131230894;
-			
-			// aapt resource value: 0x7f08009f
-			public const int media_actions = 2131230879;
-			
-			// aapt resource value: 0x7f0800ac
-			public const int message = 2131230892;
-			
-			// aapt resource value: 0x7f080031
-			public const int middle = 2131230769;
-			
-			// aapt resource value: 0x7f080053
-			public const int mini = 2131230803;
-			
-			// aapt resource value: 0x7f080028
-			public const int multiply = 2131230760;
-			
-			// aapt resource value: 0x7f080093
-			public const int navigation_header_container = 2131230867;
-			
-			// aapt resource value: 0x7f08003b
-			public const int never = 2131230779;
-			
-			// aapt resource value: 0x7f080022
-			public const int none = 2131230754;
-			
-			// aapt resource value: 0x7f08001e
-			public const int normal = 2131230750;
-			
-			// aapt resource value: 0x7f0800a8
-			public const int notification_background = 2131230888;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int notification_main_column = 2131230882;
+			// aapt resource value: 0x7f0800b4
+			public const int masked = 2131230900;
 			
 			// aapt resource value: 0x7f0800a1
-			public const int notification_main_column_container = 2131230881;
+			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f08004c
-			public const int parallax = 2131230796;
+			// aapt resource value: 0x7f0800b2
+			public const int message = 2131230898;
 			
-			// aapt resource value: 0x7f080065
-			public const int parentPanel = 2131230821;
+			// aapt resource value: 0x7f0800b0
+			public const int miCompose = 2131230896;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int miProfile = 2131230897;
+			
+			// aapt resource value: 0x7f080033
+			public const int middle = 2131230771;
+			
+			// aapt resource value: 0x7f080055
+			public const int mini = 2131230805;
+			
+			// aapt resource value: 0x7f08002a
+			public const int multiply = 2131230762;
+			
+			// aapt resource value: 0x7f080095
+			public const int navigation_header_container = 2131230869;
+			
+			// aapt resource value: 0x7f08003d
+			public const int never = 2131230781;
+			
+			// aapt resource value: 0x7f080024
+			public const int none = 2131230756;
+			
+			// aapt resource value: 0x7f080020
+			public const int normal = 2131230752;
+			
+			// aapt resource value: 0x7f0800aa
+			public const int notification_background = 2131230890;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int notification_main_column = 2131230884;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int notification_main_column_container = 2131230883;
+			
+			// aapt resource value: 0x7f08004e
+			public const int parallax = 2131230798;
+			
+			// aapt resource value: 0x7f080067
+			public const int parentPanel = 2131230823;
 			
 			// aapt resource value: 0x7f08000b
 			public const int parent_matrix = 2131230731;
 			
-			// aapt resource value: 0x7f08004d
-			public const int pin = 2131230797;
+			// aapt resource value: 0x7f08004f
+			public const int pin = 2131230799;
 			
 			// aapt resource value: 0x7f080006
 			public const int progress_circular = 2131230726;
@@ -2642,17 +2846,17 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080007
 			public const int progress_horizontal = 2131230727;
 			
-			// aapt resource value: 0x7f080075
-			public const int radio = 2131230837;
+			// aapt resource value: 0x7f080077
+			public const int radio = 2131230839;
 			
-			// aapt resource value: 0x7f08004a
-			public const int right = 2131230794;
+			// aapt resource value: 0x7f08004c
+			public const int right = 2131230796;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int right_icon = 2131230887;
+			// aapt resource value: 0x7f0800a9
+			public const int right_icon = 2131230889;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int right_side = 2131230883;
+			// aapt resource value: 0x7f0800a5
+			public const int right_side = 2131230885;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2663,110 +2867,110 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f08000e
 			public const int save_scale_type = 2131230734;
 			
-			// aapt resource value: 0x7f080029
-			public const int screen = 2131230761;
+			// aapt resource value: 0x7f08002b
+			public const int screen = 2131230763;
 			
-			// aapt resource value: 0x7f080042
-			public const int scroll = 2131230786;
+			// aapt resource value: 0x7f080044
+			public const int scroll = 2131230788;
 			
-			// aapt resource value: 0x7f08006b
-			public const int scrollIndicatorDown = 2131230827;
+			// aapt resource value: 0x7f08006d
+			public const int scrollIndicatorDown = 2131230829;
 			
-			// aapt resource value: 0x7f080067
-			public const int scrollIndicatorUp = 2131230823;
+			// aapt resource value: 0x7f080069
+			public const int scrollIndicatorUp = 2131230825;
 			
-			// aapt resource value: 0x7f080068
-			public const int scrollView = 2131230824;
+			// aapt resource value: 0x7f08006a
+			public const int scrollView = 2131230826;
 			
-			// aapt resource value: 0x7f080055
-			public const int scrollable = 2131230805;
-			
-			// aapt resource value: 0x7f080080
-			public const int search_badge = 2131230848;
-			
-			// aapt resource value: 0x7f08007f
-			public const int search_bar = 2131230847;
-			
-			// aapt resource value: 0x7f080081
-			public const int search_button = 2131230849;
-			
-			// aapt resource value: 0x7f080086
-			public const int search_close_btn = 2131230854;
+			// aapt resource value: 0x7f080057
+			public const int scrollable = 2131230807;
 			
 			// aapt resource value: 0x7f080082
-			public const int search_edit_frame = 2131230850;
+			public const int search_badge = 2131230850;
 			
-			// aapt resource value: 0x7f080088
-			public const int search_go_btn = 2131230856;
+			// aapt resource value: 0x7f080081
+			public const int search_bar = 2131230849;
 			
 			// aapt resource value: 0x7f080083
-			public const int search_mag_icon = 2131230851;
+			public const int search_button = 2131230851;
+			
+			// aapt resource value: 0x7f080088
+			public const int search_close_btn = 2131230856;
 			
 			// aapt resource value: 0x7f080084
-			public const int search_plate = 2131230852;
-			
-			// aapt resource value: 0x7f080085
-			public const int search_src_text = 2131230853;
-			
-			// aapt resource value: 0x7f080089
-			public const int search_voice_btn = 2131230857;
+			public const int search_edit_frame = 2131230852;
 			
 			// aapt resource value: 0x7f08008a
-			public const int select_dialog_listview = 2131230858;
+			public const int search_go_btn = 2131230858;
 			
-			// aapt resource value: 0x7f080074
-			public const int shortcut = 2131230836;
+			// aapt resource value: 0x7f080085
+			public const int search_mag_icon = 2131230853;
 			
-			// aapt resource value: 0x7f080023
-			public const int showCustom = 2131230755;
+			// aapt resource value: 0x7f080086
+			public const int search_plate = 2131230854;
 			
-			// aapt resource value: 0x7f080024
-			public const int showHome = 2131230756;
-			
-			// aapt resource value: 0x7f080025
-			public const int showTitle = 2131230757;
+			// aapt resource value: 0x7f080087
+			public const int search_src_text = 2131230855;
 			
 			// aapt resource value: 0x7f08008b
-			public const int smallLabel = 2131230859;
+			public const int search_voice_btn = 2131230859;
 			
-			// aapt resource value: 0x7f080092
-			public const int snackbar_action = 2131230866;
+			// aapt resource value: 0x7f08008c
+			public const int select_dialog_listview = 2131230860;
 			
-			// aapt resource value: 0x7f080091
-			public const int snackbar_text = 2131230865;
+			// aapt resource value: 0x7f080076
+			public const int shortcut = 2131230838;
 			
-			// aapt resource value: 0x7f080043
-			public const int snap = 2131230787;
+			// aapt resource value: 0x7f080025
+			public const int showCustom = 2131230757;
 			
-			// aapt resource value: 0x7f080064
-			public const int spacer = 2131230820;
+			// aapt resource value: 0x7f080026
+			public const int showHome = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int showTitle = 2131230759;
+			
+			// aapt resource value: 0x7f08008d
+			public const int smallLabel = 2131230861;
+			
+			// aapt resource value: 0x7f080094
+			public const int snackbar_action = 2131230868;
+			
+			// aapt resource value: 0x7f080093
+			public const int snackbar_text = 2131230867;
+			
+			// aapt resource value: 0x7f080045
+			public const int snap = 2131230789;
+			
+			// aapt resource value: 0x7f080066
+			public const int spacer = 2131230822;
 			
 			// aapt resource value: 0x7f080008
 			public const int split_action_bar = 2131230728;
 			
-			// aapt resource value: 0x7f08002a
-			public const int src_atop = 2131230762;
-			
-			// aapt resource value: 0x7f08002b
-			public const int src_in = 2131230763;
-			
 			// aapt resource value: 0x7f08002c
-			public const int src_over = 2131230764;
+			public const int src_atop = 2131230764;
 			
-			// aapt resource value: 0x7f08004b
-			public const int start = 2131230795;
+			// aapt resource value: 0x7f08002d
+			public const int src_in = 2131230765;
 			
-			// aapt resource value: 0x7f08009e
-			public const int status_bar_latest_event_content = 2131230878;
+			// aapt resource value: 0x7f08002e
+			public const int src_over = 2131230766;
 			
-			// aapt resource value: 0x7f080076
-			public const int submenuarrow = 2131230838;
+			// aapt resource value: 0x7f08004d
+			public const int start = 2131230797;
 			
-			// aapt resource value: 0x7f080087
-			public const int submit_area = 2131230855;
+			// aapt resource value: 0x7f0800a0
+			public const int status_bar_latest_event_content = 2131230880;
 			
-			// aapt resource value: 0x7f08001f
-			public const int tabMode = 2131230751;
+			// aapt resource value: 0x7f080078
+			public const int submenuarrow = 2131230840;
+			
+			// aapt resource value: 0x7f080089
+			public const int submit_area = 2131230857;
+			
+			// aapt resource value: 0x7f080021
+			public const int tabMode = 2131230753;
 			
 			// aapt resource value: 0x7f080019
 			public const int tag_transition_group = 2131230745;
@@ -2777,14 +2981,14 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f08001b
 			public const int text2 = 2131230747;
 			
-			// aapt resource value: 0x7f08006a
-			public const int textSpacerNoButtons = 2131230826;
+			// aapt resource value: 0x7f08006c
+			public const int textSpacerNoButtons = 2131230828;
 			
-			// aapt resource value: 0x7f080069
-			public const int textSpacerNoTitle = 2131230825;
+			// aapt resource value: 0x7f08006b
+			public const int textSpacerNoTitle = 2131230827;
 			
-			// aapt resource value: 0x7f080098
-			public const int text_input_password_toggle = 2131230872;
+			// aapt resource value: 0x7f08009a
+			public const int text_input_password_toggle = 2131230874;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
@@ -2792,26 +2996,29 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int time = 2131230884;
+			// aapt resource value: 0x7f0800a6
+			public const int time = 2131230886;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
 			
+			// aapt resource value: 0x7f080073
+			public const int titleDividerNoCustom = 2131230835;
+			
 			// aapt resource value: 0x7f080071
-			public const int titleDividerNoCustom = 2131230833;
+			public const int title_template = 2131230833;
 			
-			// aapt resource value: 0x7f08006f
-			public const int title_template = 2131230831;
+			// aapt resource value: 0x7f0800af
+			public const int toolbar1 = 2131230895;
 			
-			// aapt resource value: 0x7f08003e
-			public const int top = 2131230782;
+			// aapt resource value: 0x7f080040
+			public const int top = 2131230784;
 			
-			// aapt resource value: 0x7f08006e
-			public const int topPanel = 2131230830;
+			// aapt resource value: 0x7f080070
+			public const int topPanel = 2131230832;
 			
-			// aapt resource value: 0x7f08008f
-			public const int touch_outside = 2131230863;
+			// aapt resource value: 0x7f080091
+			public const int touch_outside = 2131230865;
 			
 			// aapt resource value: 0x7f08000f
 			public const int transition_current_scene = 2131230735;
@@ -2828,26 +3035,26 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
-			// aapt resource value: 0x7f08002d
-			public const int uniform = 2131230765;
+			// aapt resource value: 0x7f08002f
+			public const int uniform = 2131230767;
 			
 			// aapt resource value: 0x7f080009
 			public const int up = 2131230729;
 			
-			// aapt resource value: 0x7f080026
-			public const int useLogo = 2131230758;
+			// aapt resource value: 0x7f080028
+			public const int useLogo = 2131230760;
 			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int visible = 2131230893;
+			// aapt resource value: 0x7f0800b3
+			public const int visible = 2131230899;
 			
-			// aapt resource value: 0x7f08003c
-			public const int withText = 2131230780;
+			// aapt resource value: 0x7f08003e
+			public const int withText = 2131230782;
 			
-			// aapt resource value: 0x7f08002e
-			public const int wrap_content = 2131230766;
+			// aapt resource value: 0x7f080030
+			public const int wrap_content = 2131230768;
 			
 			static Id()
 			{
@@ -2906,193 +3113,202 @@ namespace SemesterCalendar.Droid
 		{
 			
 			// aapt resource value: 0x7f040000
-			public const int abc_action_bar_title_item = 2130968576;
+			public const int _classitem = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int abc_action_bar_up_container = 2130968577;
+			public const int _SemesterItem = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int abc_action_menu_item_layout = 2130968578;
+			public const int abc_action_bar_title_item = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int abc_action_menu_layout = 2130968579;
+			public const int abc_action_bar_up_container = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int abc_action_mode_bar = 2130968580;
+			public const int abc_action_menu_item_layout = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int abc_action_mode_close_item_material = 2130968581;
+			public const int abc_action_menu_layout = 2130968581;
 			
 			// aapt resource value: 0x7f040006
-			public const int abc_activity_chooser_view = 2130968582;
+			public const int abc_action_mode_bar = 2130968582;
 			
 			// aapt resource value: 0x7f040007
-			public const int abc_activity_chooser_view_list_item = 2130968583;
+			public const int abc_action_mode_close_item_material = 2130968583;
 			
 			// aapt resource value: 0x7f040008
-			public const int abc_alert_dialog_button_bar_material = 2130968584;
+			public const int abc_activity_chooser_view = 2130968584;
 			
 			// aapt resource value: 0x7f040009
-			public const int abc_alert_dialog_material = 2130968585;
+			public const int abc_activity_chooser_view_list_item = 2130968585;
 			
 			// aapt resource value: 0x7f04000a
-			public const int abc_alert_dialog_title_material = 2130968586;
+			public const int abc_alert_dialog_button_bar_material = 2130968586;
 			
 			// aapt resource value: 0x7f04000b
-			public const int abc_dialog_title_material = 2130968587;
+			public const int abc_alert_dialog_material = 2130968587;
 			
 			// aapt resource value: 0x7f04000c
-			public const int abc_expanded_menu_layout = 2130968588;
+			public const int abc_alert_dialog_title_material = 2130968588;
 			
 			// aapt resource value: 0x7f04000d
-			public const int abc_list_menu_item_checkbox = 2130968589;
+			public const int abc_dialog_title_material = 2130968589;
 			
 			// aapt resource value: 0x7f04000e
-			public const int abc_list_menu_item_icon = 2130968590;
+			public const int abc_expanded_menu_layout = 2130968590;
 			
 			// aapt resource value: 0x7f04000f
-			public const int abc_list_menu_item_layout = 2130968591;
+			public const int abc_list_menu_item_checkbox = 2130968591;
 			
 			// aapt resource value: 0x7f040010
-			public const int abc_list_menu_item_radio = 2130968592;
+			public const int abc_list_menu_item_icon = 2130968592;
 			
 			// aapt resource value: 0x7f040011
-			public const int abc_popup_menu_header_item_layout = 2130968593;
+			public const int abc_list_menu_item_layout = 2130968593;
 			
 			// aapt resource value: 0x7f040012
-			public const int abc_popup_menu_item_layout = 2130968594;
+			public const int abc_list_menu_item_radio = 2130968594;
 			
 			// aapt resource value: 0x7f040013
-			public const int abc_screen_content_include = 2130968595;
+			public const int abc_popup_menu_header_item_layout = 2130968595;
 			
 			// aapt resource value: 0x7f040014
-			public const int abc_screen_simple = 2130968596;
+			public const int abc_popup_menu_item_layout = 2130968596;
 			
 			// aapt resource value: 0x7f040015
-			public const int abc_screen_simple_overlay_action_mode = 2130968597;
+			public const int abc_screen_content_include = 2130968597;
 			
 			// aapt resource value: 0x7f040016
-			public const int abc_screen_toolbar = 2130968598;
+			public const int abc_screen_simple = 2130968598;
 			
 			// aapt resource value: 0x7f040017
-			public const int abc_search_dropdown_item_icons_2line = 2130968599;
+			public const int abc_screen_simple_overlay_action_mode = 2130968599;
 			
 			// aapt resource value: 0x7f040018
-			public const int abc_search_view = 2130968600;
+			public const int abc_screen_toolbar = 2130968600;
 			
 			// aapt resource value: 0x7f040019
-			public const int abc_select_dialog_material = 2130968601;
+			public const int abc_search_dropdown_item_icons_2line = 2130968601;
 			
 			// aapt resource value: 0x7f04001a
-			public const int activity_main = 2130968602;
+			public const int abc_search_view = 2130968602;
 			
 			// aapt resource value: 0x7f04001b
-			public const int design_bottom_navigation_item = 2130968603;
+			public const int abc_select_dialog_material = 2130968603;
 			
 			// aapt resource value: 0x7f04001c
-			public const int design_bottom_sheet_dialog = 2130968604;
+			public const int activity_main = 2130968604;
 			
 			// aapt resource value: 0x7f04001d
-			public const int design_layout_snackbar = 2130968605;
+			public const int design_bottom_navigation_item = 2130968605;
 			
 			// aapt resource value: 0x7f04001e
-			public const int design_layout_snackbar_include = 2130968606;
+			public const int design_bottom_sheet_dialog = 2130968606;
 			
 			// aapt resource value: 0x7f04001f
-			public const int design_layout_tab_icon = 2130968607;
+			public const int design_layout_snackbar = 2130968607;
 			
 			// aapt resource value: 0x7f040020
-			public const int design_layout_tab_text = 2130968608;
+			public const int design_layout_snackbar_include = 2130968608;
 			
 			// aapt resource value: 0x7f040021
-			public const int design_menu_item_action_area = 2130968609;
+			public const int design_layout_tab_icon = 2130968609;
 			
 			// aapt resource value: 0x7f040022
-			public const int design_navigation_item = 2130968610;
+			public const int design_layout_tab_text = 2130968610;
 			
 			// aapt resource value: 0x7f040023
-			public const int design_navigation_item_header = 2130968611;
+			public const int design_menu_item_action_area = 2130968611;
 			
 			// aapt resource value: 0x7f040024
-			public const int design_navigation_item_separator = 2130968612;
+			public const int design_navigation_item = 2130968612;
 			
 			// aapt resource value: 0x7f040025
-			public const int design_navigation_item_subheader = 2130968613;
+			public const int design_navigation_item_header = 2130968613;
 			
 			// aapt resource value: 0x7f040026
-			public const int design_navigation_menu = 2130968614;
+			public const int design_navigation_item_separator = 2130968614;
 			
 			// aapt resource value: 0x7f040027
-			public const int design_navigation_menu_item = 2130968615;
+			public const int design_navigation_item_subheader = 2130968615;
 			
 			// aapt resource value: 0x7f040028
-			public const int design_text_input_password_icon = 2130968616;
+			public const int design_navigation_menu = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int design_navigation_menu_item = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int design_text_input_password_icon = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int notification_action = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int notification_action_tombstone = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_media_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_media_cancel_action = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_template_big_media = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_template_big_media_custom = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media_narrow = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_big_media_narrow_custom = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_custom_big = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_icon_group = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_lines_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_media_custom = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
+			public const int notification_template_part_chronometer = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
+			public const int notification_template_part_time = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
+			public const int select_dialog_item_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int SemesterDetailView = 2130968635;
+			public const int select_dialog_multichoice_material = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int support_simple_spinner_dropdown_item = 2130968636;
+			public const int select_dialog_singlechoice_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int toolbar_main = 2130968637;
+			public const int SemesterDetailView = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int tooltip = 2130968638;
+			public const int SemesterList = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int toolbar_main = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int tooltip = 2130968641;
 			
 			static Layout()
 			{
@@ -5814,6 +6030,44 @@ namespace SemesterCalendar.Droid
 			
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
+			
+			public static int[] MvxBinding = new int[] {
+					2130772315,
+					2130772316};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public const int MvxBinding_MvxLang = 1;
+			
+			public static int[] MvxControl = new int[] {
+					2130772317};
+			
+			// aapt resource value: 0
+			public const int MvxControl_MvxTemplate = 0;
+			
+			public static int[] MvxExpandableListView = new int[] {
+					2130772320};
+			
+			// aapt resource value: 0
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxListView = new int[] {
+					2130772318,
+					2130772319};
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] MvxRecyclerView = new int[] {
+					2130772314};
+			
+			// aapt resource value: 0
+			public const int MvxRecyclerView_MvxTemplateSelector = 0;
 			
 			public static int[] NavigationView = new int[] {
 					16842964,
