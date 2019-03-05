@@ -2525,9 +2525,6 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f080037
 			public const int META = 2131230775;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int Menu = 2131230894;
-			
 			// aapt resource value: 0x7f08001d
 			public const int MvvmCrossTagId = 2131230749;
 			
@@ -3009,7 +3006,10 @@ namespace SemesterCalendar.Droid
 			public const int title_template = 2131230833;
 			
 			// aapt resource value: 0x7f0800af
-			public const int toolbar1 = 2131230895;
+			public const int toolbar = 2131230895;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int toolbar_layout = 2131230894;
 			
 			// aapt resource value: 0x7f080040
 			public const int top = 2131230784;
@@ -3305,10 +3305,13 @@ namespace SemesterCalendar.Droid
 			public const int support_simple_spinner_dropdown_item = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int toolbar_main = 2130968640;
+			public const int toolbar = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int tooltip = 2130968641;
+			public const int toolbar_main = 2130968641;
+			
+			// aapt resource value: 0x7f040042
+			public const int tooltip = 2130968642;
 			
 			static Layout()
 			{
