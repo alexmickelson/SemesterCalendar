@@ -13,7 +13,6 @@
             android:id="@+id/toolbar"
             layout="@layout/toolbar"
             local:layout_scrollFlags="scroll|enterAlways" />
-
 		<TextView
 		android:id="@+id/toolbar_title"
 		android:layout_width="match_parent"
@@ -23,36 +22,107 @@
 		android:textSize="22sp"
 		android:textStyle="bold" 
 		/>
+		<HorizontalScrollView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			>
+			<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[0].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[1].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[2].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[3].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[0].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[1].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[2].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[3].Name"
+				/>
+				<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_centerInParent="true"
+				local:MvxBind="Text Semesters[0].Name"
+				/>
+			</LinearLayout>
+		</HorizontalScrollView>
     </android.support.design.widget.AppBarLayout>
-	<FrameLayout
-    android:layout_below="@id/toolbar_layout"
-    android:orientation="vertical"
-    android:layout_width="match_parent" 
-    android:layout_height="match_parent" >
-    <LinearLayout
-      android:orientation="horizontal"
-      android:layout_width="match_parent"
-      android:layout_height="30dp"
-      >
-      <TextView
-        android:layout_height="match_parent"
-        android:layout_width="100dp"
-        android:text="Class"
-        />
-      <TextView
-        android:layout_height="match_parent"
-        android:layout_width="wrap_content"
-        android:text="Credits"
-        />
-    </LinearLayout>
+	<LinearLayout
+		android:layout_below="@id/toolbar_layout"
+		android:orientation="vertical"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent" >
+		<LinearLayout
+		  android:orientation="horizontal"
+		  android:layout_width="match_parent"
+		  android:layout_height="30dp"
+		  >
+		  <TextView
+			android:layout_height="match_parent"
+			android:layout_width="100dp"
+			android:text="Class"
+			/>
+		  <TextView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="Credits"
+			/>
+		</LinearLayout>
 
-    <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
-     local:MvxItemTemplate="@layout/_classitem"
-     local:MvxBind="ItemsSource Semester.Classes"
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     />
-
-	</FrameLayout>
+		<MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
+		 local:MvxItemTemplate="@layout/_classitem"
+		 local:MvxBind="ItemsSource Semester.Classes"
+		 android:layout_width="match_parent"
+		 android:layout_height="match_parent"
+		 />
+	</LinearLayout>
 
 </RelativeLayout>

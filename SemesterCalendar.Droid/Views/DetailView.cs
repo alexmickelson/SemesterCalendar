@@ -23,6 +23,18 @@ namespace SemesterCalendar.Droid.Views
             base.OnCreate(bundle);
             //TODO: BarLayout
             SetContentView(Resource.Layout.SemesterDetailView);
+
+
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.InflateMenu(Resource.Menu.scroll_right);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            base.OnCreateOptionsMenu(menu);
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.InflateMenu(Resource.Menu.scroll_right);
+            return true;
         }
     }
 }
