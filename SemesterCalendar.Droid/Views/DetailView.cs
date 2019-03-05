@@ -14,7 +14,7 @@ using SemesterCalendar.Core.ViewModels;
 
 namespace SemesterCalendar.Droid.Views
 {
-    [Activity(Label = "SemesterDetail", MainLauncher = false)]
+    [Activity(Label = "SemesterDetail", MainLauncher = true)]
     public class DetailView : MvxActivity<DetailViewModel>
     {
 

@@ -7,11 +7,22 @@
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:id="@+id/toolbar_layout">
+        android:id="@+id/toolbar_layout"
+		android:background="@color/white">
         <include
             android:id="@+id/toolbar"
             layout="@layout/toolbar"
             local:layout_scrollFlags="scroll|enterAlways" />
+
+		<TextView
+		android:id="@+id/toolbar_title"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:text="Semester Detail View"
+		android:textSize="22sp"
+		android:textStyle="bold" 
+		/>
     </android.support.design.widget.AppBarLayout>
 	<!--<AppBarLayout
 		android:id="@+id/Menu"
