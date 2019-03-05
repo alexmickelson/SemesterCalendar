@@ -2608,6 +2608,11 @@ namespace SemesterCalendar.Droid
 			
 			// aapt resource value: 0x7f0800ac
 			public const int actions = 2131230892;
+			// aapt resource value: 0x7f0800b6
+			public const int action_swipe_right = 2131230902;
+			
+			// aapt resource value: 0x7f08009d
+			public const int action_text = 2131230877;
 			
 			// aapt resource value: 0x7f080060
 			public const int activity_chooser_view_content = 2131230816;
@@ -3337,6 +3342,22 @@ namespace SemesterCalendar.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int scroll_right = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

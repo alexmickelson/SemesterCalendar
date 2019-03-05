@@ -10,6 +10,7 @@ namespace SemesterCalendar.Core.ViewModels
     {
         private int num { get; set; }
         private List<CollegeSemester> semesters { get; set; }
+        public List<CollegeSemester> Semesters => semesters;
         public CollegeSemester Semester {
             get
             {

@@ -33,6 +33,18 @@ namespace SemesterCalendar.Droid.Views
             }
             catch (Exception e)
             { }
+
+
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.InflateMenu(Resource.Menu.scroll_right);
+        }
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            base.OnCreateOptionsMenu(menu);
+            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            toolbar.InflateMenu(Resource.Menu.scroll_right);
+            return true;
         }
     }
 }
