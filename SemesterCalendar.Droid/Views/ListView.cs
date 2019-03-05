@@ -14,8 +14,8 @@ namespace SemesterCalendar.Droid.Views
             base.OnCreate(bundle);
             //TODO: BarLayout
             SetContentView(Resource.Layout.SemesterList);
-        }
 
-        
+
+        }
     }
 }

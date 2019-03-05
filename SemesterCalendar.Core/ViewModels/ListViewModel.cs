@@ -1,4 +1,4 @@
-﻿using MvvmCross.ViewModels;
+﻿ using MvvmCross.ViewModels;
 using SemesterCalendar.Core.Models;
 using System;
 using System.Collections.Generic;
