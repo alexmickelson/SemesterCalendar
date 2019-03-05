@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MvvmCross.ViewModels;
 
 namespace SemesterCalendar.Core.Models
 {
-    class CollegeSemester
+    public class CollegeSemester
     {
+        public string Name { get; set; }
+        public MvxObservableCollection<CollegeClass> Classes { get; set; }
     }
 }

@@ -7,7 +7,8 @@
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="20dp"
-		local:MvxBind=""
+		android:gravity="center_horizontal"
+		local:MvxBind="Text Name"
 		/>
 	<LinearLayout
 		android:orientation="horizontal"
@@ -16,16 +17,16 @@
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_weight="1"
 			android:layout_centerInParent="true"
-			local:MvxBind=""
-			android:text="Semester 1"
+			local:MvxBind="Text Semester1.Name"
 			/>
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_weight="1"
 			android:layout_centerInParent="true"
-			local:MvxBind=""
-			android:text="Semester 2"
+			local:MvxBind="Text Semester2.Name"
 			/>
 	</LinearLayout>
 </LinearLayout>

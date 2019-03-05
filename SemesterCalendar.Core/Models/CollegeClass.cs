@@ -4,7 +4,8 @@ using System.Text;
 
 namespace SemesterCalendar.Core.Models
 {
-    class CollegeClass
+    public class CollegeClass
     {
+        public string Name { get; set; }
     }
 }

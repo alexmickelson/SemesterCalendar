@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SemesterCalendar.Core.ViewModels
 {
-    class DetailViewModel : MvxViewModel
+    public class DetailViewModel : MvxViewModel
     {
     }
 }
