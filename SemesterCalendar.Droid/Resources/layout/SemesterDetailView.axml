@@ -117,13 +117,15 @@
 			/>
 		</LinearLayout>
 
-    <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
+	<MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
 	 android:id="@+id/ClassRecView"
      local:MvxItemTemplate="@layout/_classitem"
      local:MvxBind="ItemsSource Semester.Classes"
      android:layout_width="match_parent"
      android:layout_height="match_parent" />
 
-	</FrameLayout>
+	</LinearLayout>
+
+
 
 </RelativeLayout>

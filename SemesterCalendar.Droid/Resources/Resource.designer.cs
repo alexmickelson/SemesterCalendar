@@ -2603,16 +2603,14 @@ namespace SemesterCalendar.Droid
 			// aapt resource value: 0x7f08005f
 			public const int action_mode_close_button = 2131230815;
 			
+			// aapt resource value: 0x7f0800b9
+			public const int action_swipe_right = 2131230905;
+			
 			// aapt resource value: 0x7f08009e
 			public const int action_text = 2131230878;
 			
 			// aapt resource value: 0x7f0800ac
 			public const int actions = 2131230892;
-			// aapt resource value: 0x7f0800b6
-			public const int action_swipe_right = 2131230902;
-			
-			// aapt resource value: 0x7f08009d
-			public const int action_text = 2131230877;
 			
 			// aapt resource value: 0x7f080060
 			public const int activity_chooser_view_content = 2131230816;

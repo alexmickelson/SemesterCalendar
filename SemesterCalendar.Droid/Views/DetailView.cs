@@ -16,7 +16,7 @@ using Android.Support.V7.Widget;
 
 namespace SemesterCalendar.Droid.Views
 {
-    [Activity(Label = "SemesterDetail", MainLauncher = false)]
+    [Activity(Label = "SemesterDetail", MainLauncher = true)]
     public class DetailView : MvxActivity<DetailViewModel>
     {
 
@@ -35,14 +35,14 @@ namespace SemesterCalendar.Droid.Views
             { }
 
 
-            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            var toolbar = FindViewById<Android.Widget.Toolbar>(Resource.Id.toolbar);
             toolbar.InflateMenu(Resource.Menu.scroll_right);
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             base.OnCreateOptionsMenu(menu);
-            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+            var toolbar = FindViewById<Android.Widget.Toolbar>(Resource.Id.toolbar);
             toolbar.InflateMenu(Resource.Menu.scroll_right);
             return true;
         }
