@@ -33,11 +33,11 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" >
 		<MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
+			android:id="@+id/SemesterRecView"
 			local:MvxItemTemplate="@layout/_semesteritem"
 			local:MvxBind="ItemsSource Years"
 			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			/>
+			android:layout_height="match_parent" />
 
 	</FrameLayout>
 </RelativeLayout>

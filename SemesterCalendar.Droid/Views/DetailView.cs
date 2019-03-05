@@ -11,10 +11,12 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Platforms.Android.Views;
 using SemesterCalendar.Core.ViewModels;
+using MvvmCross.Droid.Support.V7.RecyclerView;
+using Android.Support.V7.Widget;
 
 namespace SemesterCalendar.Droid.Views
 {
-    [Activity(Label = "SemesterDetail", MainLauncher = true)]
+    [Activity(Label = "SemesterDetail", MainLauncher = false)]
     public class DetailView : MvxActivity<DetailViewModel>
     {
 
@@ -23,6 +25,14 @@ namespace SemesterCalendar.Droid.Views
             base.OnCreate(bundle);
             //TODO: BarLayout
             SetContentView(Resource.Layout.SemesterDetailView);
+
+            try
+            {
+                MvxRecyclerView layoutManager = FindViewById<MvxRecyclerView>(Resource.Id.ClassRecView);
+                layoutManager.SetLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.Horizontal, false));
+            }
+            catch (Exception e)
+            { }
         }
     }
 }
