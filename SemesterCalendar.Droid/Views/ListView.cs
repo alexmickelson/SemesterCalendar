@@ -5,7 +5,7 @@ using SemesterCalendar.Core.ViewModels;
 
 namespace SemesterCalendar.Droid.Views
 {
-    [Activity (Label ="SemesterList", MainLauncher =true)]
+    [Activity (Label ="SemesterList", MainLauncher =false)]
     class ListView : MvxActivity<ListViewModel>
     {
 
