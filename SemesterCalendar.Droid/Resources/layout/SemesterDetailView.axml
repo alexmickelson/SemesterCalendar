@@ -24,18 +24,6 @@
 		android:textStyle="bold" 
 		/>
     </android.support.design.widget.AppBarLayout>
-	<!--<AppBarLayout
-		android:id="@+id/Menu"
-		android:orientation="vertical"
-		android:layout_width="match_parent"
-		android:layout_height="50dp">
-		<Toolbar
-			android:id="@+id/toolbar1"
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:text="Edit" 
-      />
-	</AppBarLayout>-->
 	<FrameLayout
     android:layout_below="@id/toolbar_layout"
     android:orientation="vertical"
